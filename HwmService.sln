@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hwm", "src\Hwm\Hwm.csproj", "{4409A42E-C1A1-43DB-A7B7-A4A6333A96C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataImportService", "src\DataImportService\DataImportService.csproj", "{4154D47D-2732-4749-A1E4-05D9AE29D9D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{4409A42E-C1A1-43DB-A7B7-A4A6333A96C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4409A42E-C1A1-43DB-A7B7-A4A6333A96C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4409A42E-C1A1-43DB-A7B7-A4A6333A96C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4154D47D-2732-4749-A1E4-05D9AE29D9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4154D47D-2732-4749-A1E4-05D9AE29D9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4154D47D-2732-4749-A1E4-05D9AE29D9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4154D47D-2732-4749-A1E4-05D9AE29D9D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4F8F751F-87EA-4AAA-B524-A7FA9138322B} = {5DA746FC-0082-42E5-9AAA-B7E8E4FC2C4A}
 		{4409A42E-C1A1-43DB-A7B7-A4A6333A96C8} = {5DA746FC-0082-42E5-9AAA-B7E8E4FC2C4A}
+		{4154D47D-2732-4749-A1E4-05D9AE29D9D9} = {5DA746FC-0082-42E5-9AAA-B7E8E4FC2C4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {941E71C9-B032-49A3-8614-B47540CF3773}
